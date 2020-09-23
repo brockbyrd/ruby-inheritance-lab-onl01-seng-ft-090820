@@ -2,8 +2,8 @@ require_relative './user.rb'
 
 class Student < User
 
-  def initalize(knowlege)
-    @knowlege = []
+  def initalize(@knowledge)
+    @knowledge = []
   end
 
 end
