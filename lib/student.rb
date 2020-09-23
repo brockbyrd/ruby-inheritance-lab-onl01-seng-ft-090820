@@ -2,7 +2,7 @@ require_relative './user.rb'
 
 class Student < User
 
-  def initalize(array)
+  def initalize(knowlege)
     @knowlege = []
   end
 
